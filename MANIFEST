@@ -1,0 +1,11 @@
+Build.PL
+Changes
+LICENSE
+META.json
+README.md
+TODO
+cpanfile
+lib/DBIx/ThinSQL/SQLite.pm
+t/DBIx/ThinSQL/SQLite.t
+META.yml
+MANIFEST

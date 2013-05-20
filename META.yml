@@ -1,0 +1,50 @@
+---
+abstract: 'add various functions to SQLite'
+author:
+  - 'Mark Lawrence <nomad@null.net>'
+build_requires:
+  File::chdir: 0
+  Log::Any::Adapter: 0
+  Path::Tiny: 0
+  Test::Fatal: 0
+  Test::More: 0.98
+configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
+  Module::Build: 0.38
+dynamic_config: 0
+generated_by: 'Minilla/v0.4.3, CPAN::Meta::Converter version 2.130880'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: dbix-thinsql-sqlite
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  DBIx::ThinSQL::SQLite:
+    file: lib/DBIx/ThinSQL/SQLite.pm
+    version: v0.0.2
+  DBIx::ThinSQL::SQLite::agg_sha1:
+    file: lib/DBIx/ThinSQL/SQLite.pm
+  DBIx::ThinSQL::SQLite::agg_sha1_base64:
+    file: lib/DBIx/ThinSQL/SQLite.pm
+  DBIx::ThinSQL::SQLite::agg_sha1_hex:
+    file: lib/DBIx/ThinSQL/SQLite.pm
+requires:
+  DBD::SQLite: 0
+  DBIx::ThinSQL: 0
+  Exporter::Tidy: 0
+  perl: 5.008005
+resources:
+  bugtracker: https://github.com/mlawren/p5-DBIx-ThinSQL-SQLite/issues
+  homepage: https://github.com/mlawren/p5-DBIx-ThinSQL-SQLite
+  repository: git://github.com/mlawren/p5-DBIx-ThinSQL-SQLite.git
+version: 0.0.2
