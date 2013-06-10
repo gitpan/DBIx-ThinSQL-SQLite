@@ -18,7 +18,7 @@ license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: dbix-thinsql-sqlite
+name: DBIx-ThinSQL-SQLite
 no_index:
   directory:
     - t
@@ -31,7 +31,7 @@ no_index:
 provides:
   DBIx::ThinSQL::SQLite:
     file: lib/DBIx/ThinSQL/SQLite.pm
-    version: v0.0.2
+    version: v0.0.4
   DBIx::ThinSQL::SQLite::agg_sha1:
     file: lib/DBIx/ThinSQL/SQLite.pm
   DBIx::ThinSQL::SQLite::agg_sha1_base64:
@@ -40,11 +40,11 @@ provides:
     file: lib/DBIx/ThinSQL/SQLite.pm
 requires:
   DBD::SQLite: 0
-  DBIx::ThinSQL: 0
+  DBIx::ThinSQL: v0.0.8
   Exporter::Tidy: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/mlawren/p5-DBIx-ThinSQL-SQLite/issues
   homepage: https://github.com/mlawren/p5-DBIx-ThinSQL-SQLite
   repository: git://github.com/mlawren/p5-DBIx-ThinSQL-SQLite.git
-version: 0.0.2
+version: 0.0.4

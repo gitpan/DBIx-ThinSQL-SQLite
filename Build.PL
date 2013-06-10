@@ -23,7 +23,7 @@ my %args = (
         'Module::Build' => 0.38,
     },
 
-    name            => 'dbix-thinsql-sqlite',
+    name            => 'DBIx-ThinSQL-SQLite',
     module_name     => 'DBIx::ThinSQL::SQLite',
     allow_pure_perl => 0,
 

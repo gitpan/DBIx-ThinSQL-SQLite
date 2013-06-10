@@ -6,6 +6,7 @@ README.md
 TODO
 cpanfile
 lib/DBIx/ThinSQL/SQLite.pm
+minil.toml
 t/DBIx/ThinSQL/SQLite.t
 META.yml
 MANIFEST
