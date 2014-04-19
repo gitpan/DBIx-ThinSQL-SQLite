@@ -4,7 +4,7 @@
       "Mark Lawrence <nomad@null.net>"
    ],
    "dynamic_config" : "0",
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Install version 1.08, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unknown"
    ],
@@ -16,7 +16,8 @@
    "no_index" : {
       "directory" : [
          "inc",
-         "t"
+         "t",
+         "xt"
       ],
       "package" : [
          "DBIx::ThinSQL::SQLite::agg_sha1",
@@ -34,6 +35,16 @@
          "requires" : {
             "CPAN::Meta" : "0",
             "ExtUtils::MakeMaker" : "6.59"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Module::Install" : "0",
+            "Module::Install::AuthorTests" : "0",
+            "Module::Install::CPANfile" : "0",
+            "Module::Install::ReadmeFromPod" : "0",
+            "Test::Pod" : "0",
+            "Test::Pod::Coverage" : "0"
          }
       },
       "runtime" : {
@@ -54,7 +65,7 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://github.com/mlawren/p5-DBIx-ThinSQL-SQLite/issues"
@@ -68,5 +79,5 @@
          "url" : "git://github.com/mlawren/p5-DBIx-ThinSQL-SQLite.git"
       }
    },
-   "version" : "0.0.6"
+   "version" : "0.0.7_1"
 }
